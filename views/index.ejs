@@ -1,0 +1,28 @@
+<!-- views/index.ejs -->
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <title>Центр единой авторизации</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+</head>
+<body>
+<div class="container">
+
+    <div class="jumbotron text-center">
+        <h1>Центр единой авторизации</h1>
+
+        <p>1 ресурс для входа в разные сайты</p>
+
+
+        <form action="/auth/mail" method="post">
+          <input type="text" name="mail" placeholder="Имя ящика">
+          <input type="text" name="pass" placeholder="Пароль">
+
+          <input type="submit" name="submit" class="btn btn-primary" value="">
+        </form>
+    </div>
+
+</div>
+</body>
+</html>
